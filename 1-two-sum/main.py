@@ -8,4 +8,3 @@ class Solution:
             if n in indices:
                 return [i, indices[n]]
             indices[target - n] = i
-
